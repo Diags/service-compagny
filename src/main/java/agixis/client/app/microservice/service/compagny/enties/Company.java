@@ -1,4 +1,4 @@
-package agixis.client.app.microservice.service.compagny;
+package agixis.client.app.microservice.service.compagny.enties;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,6 +17,6 @@ public class Company {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private double price;
+    private Double price;
 
 }

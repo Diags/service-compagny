@@ -1,6 +1,6 @@
 package agixis.client.app.microservice.service.compagny.dao;
 
-import agixis.client.app.microservice.service.compagny.Company;
+import agixis.client.app.microservice.service.compagny.enties.Company;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 // cette annotation permet d'exposer le web service
